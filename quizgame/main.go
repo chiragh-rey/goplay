@@ -10,7 +10,7 @@ import (
 )
 
 // Compile and Execute: go build -o goexecutable && ./goexecutable
-// Get help and parameter details: go build . && ./quizgame -h
+// Get help and parameter details: go build . && ./goexecutable -h
 
 func main()  {
 	csvFilename := flag.String("csv", "problems.csv", "a csv file in the format of 'question,answer'")

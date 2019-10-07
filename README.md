@@ -6,4 +6,6 @@
 
 This project has collection of sample projects written in GoLang.
 
+They are meant only for practice purpose, not to be used for any real world applications.
+
 The projects are added on regular basis.

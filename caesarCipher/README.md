@@ -15,7 +15,7 @@ To do this problem on your own you simply need to try to solve each problem and 
 # Commands to be executed from caesarCipher folder
 
 # Run
-go run main.go < caesar.in
+go run main.go
 
 # Run with input from caesar.in
 go run main.go < caesar.in

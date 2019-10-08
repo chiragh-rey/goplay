@@ -9,3 +9,14 @@ The goal of this exercise is to get you familiar with how to solve problems on t
 The problem, [caesar cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem), involves encrypting a string using a fairly basic cipher where you are changing the ascii value of each character.
 
 To do this problem on your own you simply need to try to solve each problem and submit a solution to Hacker Rank to verify that it passes *all* of the test cases - not just the sample ones you can run before submitting.
+
+### How to Run
+```
+# Commands to be executed from caesarCipher folder
+
+# Run
+go run main.go < caesar.in
+
+# Run with input from caesar.in
+go run main.go < caesar.in
+```

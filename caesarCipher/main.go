@@ -8,27 +8,30 @@ import (
 // Execute: go run main.go < caesar.in
 
 func main() {
-	var length, delta int
+	var delta int
 	var input string
 
-	fmt.Scanf("%d\n", &length)
+	fmt.Println("Please enter input string to be encrypted:")
 	fmt.Scanf("%s\n", &input)
+	fmt.Println("Please enter delta for encryption:")
 	fmt.Scanf("%d\n", &delta)
 
-	fmt.Printf("length: %d\n", length)
 	fmt.Printf("input: %s\n", input)
 	fmt.Printf("delta: %d\n", delta)
 
 	solutionOne(input, delta)
-
-	var ret []rune
-	for _, ch := range input {
-		ret = append(ret, solutionTwo(ch, delta))
-	}
-	fmt.Println(string(ret))
+	solutionTwo(input, delta)
 }
 
-func solutionTwo(r rune, delta int) rune {
+func solutionTwo(input string, delta int) {
+	var ret []rune
+	for _, ch := range input {
+		ret = append(ret, shiftRune(ch, delta))
+	}
+	fmt.Println("Output from SolutionTwo:", string(ret))
+}
+
+func shiftRune(r rune, delta int) rune {
 	switch {
 	case r >= 'A' && r <= 'Z':
 			return rotateTwo(r, 'A', delta)
@@ -59,7 +62,7 @@ func solutionOne(input string, delta int)  {
 			ret = ret + string(ch)
 		}
 	}
-	fmt.Println(ret)
+	fmt.Println("Output from SolutionOne:", ret)
 }
 
 func rotateOne(s rune, delta int, key []rune) rune {

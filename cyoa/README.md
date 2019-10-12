@@ -1,4 +1,4 @@
-# Exercise #3: Choose your own adventure
+# Choose your own adventure
 
 [![topic: json](https://img.shields.io/badge/topic-json-green.svg?style=flat-square)](https://github.com/search?q=topic%3Ajson+org%3Agophercises&type=Repositories)
 [![topic: html-templates](https://img.shields.io/badge/topic-html%20templates-green.svg?style=flat-square)](https://github.com/search?q=topic%3Ahtml-templates+org%3Agophercises&type=Repositories)

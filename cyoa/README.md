@@ -1,10 +1,8 @@
 # Choose your own adventure
 
 [![topic: json](https://img.shields.io/badge/topic-json-green.svg?style=flat-square)](https://github.com/search?q=topic%3Ajson+org%3Agophercises&type=Repositories)
-[![topic: html-templates](https://img.shields.io/badge/topic-html%20templates-green.svg?style=flat-square)](https://github.com/search?q=topic%3Ahtml-templates+org%3Agophercises&type=Repositories)
-[![topic: http-handlers](https://img.shields.io/badge/topic-http%20handlers-green.svg?style=flat-square)](https://github.com/search?q=topic%3Ahttp-handlers+org%3Agophercises&type=Repositories)
 
-[![code status: released](https://img.shields.io/badge/code%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/cyoa)
+![code status: released](https://img.shields.io/badge/code%20status-released-green.svg?style=for-the-badge)
 
 ## Exercise details
 

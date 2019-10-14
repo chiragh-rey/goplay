@@ -1,6 +1,6 @@
 # Hacker Rank Problems - strings and bytes
 
-[![exercise status: released](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)](https://gophercises.com/exercises/hr1)
+![exercise status: released](https://img.shields.io/badge/exercise%20status-released-green.svg?style=for-the-badge)
 
 ## Exercise details
 

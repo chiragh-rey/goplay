@@ -120,7 +120,7 @@ func Shuffle(cards []Card) []Card {
 	return ret
 }
 
-func Deck(n int) func([]Card) []Card {
+func NumberOfDecks(n int) func([]Card) []Card {
 	return func(cards []Card) []Card {
 		var ret []Card
 		for i := 0; i < n; i++ {
@@ -130,9 +130,14 @@ func Deck(n int) func([]Card) []Card {
 	}
 }
 
+func DrawCard(cards []Card) (Card, []Card) {
+	return cards[0], cards[1:]
+}
+
 func (c Card) String() string {
 	if c.Suit == Joker {
 		return c.Suit.String()
 	}
 	return fmt.Sprintf("%s of %ss", c.Rank.String(), c.Suit.String())
 }
+
